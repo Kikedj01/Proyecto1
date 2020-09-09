@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  /* font-weight: 500; */
+}
+header {
+  width: 100%;
+  position: fixed;
+  height: 45px;
+  top: 0;
+  padding: 10px 5%;
+}
+header img {
+  float: left;
+}
+header nav {
+  float: right;
+}
+.container{
+    background: #ffffff;
+    max-width: 1420px;
+    height: 80px;
+    /* border: 1px solid red; */
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  ul{
+     text-align: right;
+     margin-top: -40px;
+  }
+  li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0px;
+    line-height: 28px;
+    display: inline;
+    margin: 28px;
+}
+ul {
+  display: none;
+}
+input:checked ~ ul {
+  background: blue;
+  display: block;
+}
+  h1{
+    left: 200px;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing:0;
+    margin-left: 250px;  
+  }
+  .punto{
+      color:#0000EC;
+  }
+  p{  
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 628px;
+    height: 48px;
+    margin-left: 250px;
+  }
+  .boton1{
+    background: #00F3BB;
+    font-size: 18px;
+    font-weight: 500;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    padding: 16px 59px;
+    margin-left: 250px;
+  }
+  .episodios{
+    background-color: #0000FF;  
+    width: 1440px;
+    height: 800px;
+    clip-path: polygon(0 32%, 100% 0, 100% 100%, 0% 100%);
+
+  }
+  h2{ 
+    top: 635px;
+    left: 200px;
+    right: 1024px;
+    width: 209px;
+    height: 62px;  
+    font-size: 48px;
+    color:white;
+  }
+  .imagen1{ 
+    top: 723px;
+    left: 100px;
+    margin: 26px;
+    width: 584px;
+    height: 232px;
+  }
+  .imagen2{ 
+        top: 723px;
+        left: 756px;
+        width: 584px;
+        height: 232px;
+        margin: 26px;
+  }
+  .imagen3{ 
+    top: 723px;
+    left: 100px;
+    margin: 26px;
+    width: 584px;
+    height: 232px;
+  }
+  .imagen4{ 
+        top: 723px;
+        left: 756px;
+        width: 584px;
+        height: 232px;
+        margin: 26px;
+  }
+  .contenedor{
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .phone{
+    /* box-sizing: border-box; */
+    /* width: 50%; */
+    /* height: 660px; */
+    margin-top: -80px;
+  }
+  .dondevenimos{
+    /* float: right; */
+    font-size: 48px;
+  }
+  .textphone{
+    /* float: right; */
+  }
